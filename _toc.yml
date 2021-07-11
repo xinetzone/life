@@ -1,7 +1,7 @@
 format: jb-book
 root: README
 parts:
-- caption: 教程
+- caption: 技能
   chapters:
   - file: start/index
     sections:
@@ -15,6 +15,9 @@ parts:
   - file: topics/index
     sections:
     - glob: topics/**
+  - file: female/index
+    sections:
+    - glob: female/**
 
 - caption: 原理
   chapters:
